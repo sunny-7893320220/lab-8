@@ -30,7 +30,7 @@ services:
     depends_on:
       - db
     ports:
-      - "9000:80"
+      - "6000:80"
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
